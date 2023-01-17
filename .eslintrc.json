@@ -12,14 +12,15 @@
   ],
   "rules": {
     "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/no-var-requires": "off",
     "import/order": [2, { "alphabetize": { "order": "asc" } }],
     "prettier/prettier": [
       "error",
       {
         "trailingComma": "all",
         "endOfLine": "lf",
-        "semi": false,
-        "singleQuote": true,
+        "semi": true,
+        "singleQuote": false,
         "printWidth": 80,
         "tabWidth": 2
       }
